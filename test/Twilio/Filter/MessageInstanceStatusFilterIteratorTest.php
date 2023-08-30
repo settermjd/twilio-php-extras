@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace TwilioTest\Filter;
 
-use Twilio\Filter\MessageInstanceStatusFilter;
 use PHPUnit\Framework\TestCase;
+use Twilio\Enum\MessageInstanceStatus;
+use Twilio\Filter\MessageInstanceStatusFilter;
 use Twilio\Rest\Api\V2010\Account\MessageInstance;
-use TwilioTest\Enum\MessageInstanceStatus;
 
 class MessageInstanceStatusFilterIteratorTest extends TestCase
 {

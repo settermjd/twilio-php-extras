@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace TwilioTest\Enum;
+namespace Twilio\Enum;
 
 enum MessageInstanceStatus: string
 {

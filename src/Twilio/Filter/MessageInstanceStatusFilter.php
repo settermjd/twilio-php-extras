@@ -7,7 +7,7 @@ namespace Twilio\Filter;
 use FilterIterator;
 use Iterator;
 use Twilio\Rest\Api\V2010\Account\MessageInstance;
-use TwilioTest\Enum\MessageInstanceStatus;
+use Twilio\Enum\MessageInstanceStatus;
 
 class MessageInstanceStatusFilter extends FilterIterator
 {
