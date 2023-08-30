@@ -15,17 +15,8 @@ class MessageInstanceStatusFilterIteratorTest extends TestCase
     {
         $messages = [];
 
-        $statusList = [
-            "accepted",
-            "delivered",
-            "failed",
-            "queued",
-            "scheduled",
-            "sending",
-            "sent",
-            "undelivered"
-        ];
-        foreach ($statusList as $status) {
+        $statuses = array_column(MessageInstanceStatus::cases(),'value');
+        foreach ($statuses as $status) {
             $message = $this->createMock(MessageInstance::class);
             $message->status = $status;
             $messages[] = $message;
