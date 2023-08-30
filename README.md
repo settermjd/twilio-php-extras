@@ -1,2 +1,3 @@
-# twilio-php-extras
-A small repository containing a series of extras and additions for Twilio's PHP Helper Library.
+# PHP Extras for Twilio
+
+This repository contains a series of classes to simplify working with Twilio's PHP Helper Library.
